@@ -16,9 +16,9 @@ passport.deserializeUser(function(obj, done) {
 })
 
 passport.use(new GitHubStrategy({
-        clientID: '26eaf4e3d5fd789989a8',
-        clientSecret: 'a159857c0b90c883b114348a5026cd70eca3e3b8',
-        callbackURL: "http://127.0.0.1:3000/auth/github/callback"
+        clientID: 'a6eb276c15aefb43d257',
+        clientSecret: 'fbbdc6224fcb819ec8921482117acb73bf501037',
+        callbackURL: "http://dachunchun.top:5241/auth/github/callback"
     },
     function(accessToken, refreshToken, profile, done) {
         done(null, profile);
